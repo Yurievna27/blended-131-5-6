@@ -1,11 +1,13 @@
-.hero-section > .container {
+.hero-container {
   background-color: #1d1d1d;
   border-radius: 30px;
   display: flex;
   padding: 50px;
   padding-bottom: 0;
 }
-
+.hero-wrap {
+  flex: 1;
+}
 .hero-title {
   font-weight: 500;
   font-size: 64px;
@@ -42,6 +44,7 @@
 }
 .hero-list {
   display: flex;
+  margin-right: 12px;
 }
 .hero-list-item:not(:last-child) {
   margin-right: -13px;
@@ -76,4 +79,15 @@
 }
 .hero-image {
   margin: 0;
+}
+.cta-title {
+  font-weight: 400;
+  font-size: 59px;
+  line-height: 1.08475;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #bea69e;
+}
+.cta-title-span {
+  color: #ffffff;
 }

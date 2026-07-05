@@ -5,7 +5,6 @@ header {
 header > .container {
   display: flex;
   gap: 20px;
-  padding: 0px;
 }
 .header-nav-box {
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -46,6 +45,7 @@ header > .container {
   text-transform: uppercase;
   color: #121212;
   flex: 1;
+  white-space: nowrap;
 }
 .header-btn:hover,
 .header-btn:focus {
