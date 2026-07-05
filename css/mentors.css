@@ -1,0 +1,50 @@
+.mentors-section {
+  margin-top: 150px;
+}
+.mentors-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.125;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+}
+.mentors-title-span {
+  color: #bea69e;
+}
+.mentors-list {
+  margin-top: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 100px;
+}
+.mentors-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+}
+.mentors-descr-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 4px;
+}
+.mentors-list-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.14286;
+  text-align: center;
+  color: #ffffff;
+}
+.mentors-list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}

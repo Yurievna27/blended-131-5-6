@@ -1,0 +1,67 @@
+.courses-section {
+  margin-top: 150px;
+}
+.courses-top-box {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 410px;
+}
+.courses-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.125;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+}
+.courses-title-span {
+  color: #bea69e;
+}
+.courses-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  width: 405px;
+}
+.courses-list {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}
+.courses-list-item {
+  width: 347px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 32px;
+}
+.list-num-box {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 237px;
+}
+.list-num {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.4);
+}
+.courses-list-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.14286;
+  color: #ffffff;
+  margin-top: 32px;
+  width: 265px;
+}
+.courses-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 180px;
+}
