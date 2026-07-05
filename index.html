@@ -3,66 +3,106 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>Focus Frame</title>
   </head>
   <body>
-    <header>
-      <a href="./index.html">
-        <img src="./images/Focus.Frame.png" alt="logo" />
-      </a>
-      <nav>
-        <ul>
-          <li><a href="#about-us">About us</a></li>
-          <li><a href="#our-courses">Our courses</a></li>
-          <li><a href="#our-mentors">Our mentors</a></li>
-          <li><a href="#reviews">Reviews</a></li>
-          <li><a href="#contacts">Contacts</a></li>
-        </ul>
-      </nav>
-      <button type="button">Sign up</button>
+    <header id="header" class="header">
+      <div class="container">
+        <a href="./index.html" class="header-link">
+          <img src="./images/Focus.Frame.png" alt="logo" class="header-logo" />
+        </a>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a href="#about-us" class="header-nav-link">About us</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#our-courses" class="header-nav-link">Our courses</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#our-mentors" class="header-nav-link">Our mentors</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#reviews" class="header-nav-link">Reviews</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#contacts" class="header-nav-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <button type="button" class="header-button">Sign up</button>
+      </div>
     </header>
 
     <main>
-      <section id="hero-section">
-        <h1>Discover the magic of photography in our school</h1>
-        <p>
-          Our photography school offers an unforgettable journey, where you can
-          learn the basics of composition, master technical skills, translate
-          your unique ideas.
-        </p>
-        <img src="./images/heroBoy.webp" alt="hero boy" />
-        <ul>
-          <li>
-            <img
-              src="./images/girl1.png"
-              alt="student girl"
-              width="54"
-              height="54"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/boy.png"
-              alt="student boy"
-              width="54"
-              height="54"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/girl.png"
-              alt="student girl 2"
-              width="54"
-              height="54"
-            />
-          </li>
-        </ul>
-        <a href="#">Our happy students</a>
-        <p>Reviews</p>
-        <p>+1500</p>
+      <section id="hero-section" class="hero-section">
+        <div class="container">
+          <div class="hero-wrap">
+            <h1 class="hero-title">
+              Discover the magic of
+              <span class="hero-title-span">photography</span> in our school
+            </h1>
+            <p class="hero-text">
+              Our photography school offers an unforgettable journey, where you
+              can learn the basics of composition, master technical skills,
+              translate your unique ideas.
+            </p>
+            <div class="hero-students-box">
+              <ul class="hero-list">
+                <li class="hero-list-item">
+                  <img
+                    src="./images/girl1.png"
+                    alt="student girl"
+                    width="54"
+                    height="54"
+                    class="hero-list-image"
+                  />
+                </li>
+                <li class="hero-list-item">
+                  <img
+                    src="./images/boy.png"
+                    alt="student boy"
+                    width="54"
+                    height="54"
+                    class="hero-list-image"
+                  />
+                </li>
+                <li class="hero-list-item">
+                  <img
+                    src="./images/girl.png"
+                    alt="student girl 2"
+                    width="54"
+                    height="54"
+                    class="hero-list-image"
+                  />
+                </li>
+              </ul>
+              <a href="#" class="hero-link-students">Our happy students</a>
+              <div class="hero-reviews-box">
+                <p class="hero-reviews">Reviews</p>
+                <p class="hero-reviews-num">+1500</p>
+              </div>
+            </div>
+          </div>
+          <img src="./images/heroBoy.webp" alt="hero boy" class="hero-image" />
+        </div>
       </section>
 
-      <section>
+      <section class="main-title">
         <h2>Master your photography skills with us!</h2>
       </section>
 
