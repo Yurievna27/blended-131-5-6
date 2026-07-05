@@ -5,6 +5,7 @@ header {
 header > .container {
   display: flex;
   gap: 20px;
+  padding: 0px;
 }
 .header-nav-box {
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -15,13 +16,6 @@ header > .container {
   gap: 97px;
   padding: 20px 0;
   justify-content: center;
-  flex: 1;
-}
-.header-link {
-}
-.header-logo {
-}
-.header-nav {
 }
 .header-nav-list {
   display: flex;
@@ -29,8 +23,6 @@ header > .container {
   justify-content: flex-start;
   flex-direction: row;
   gap: 28px;
-}
-.header-nav-item {
 }
 .header-nav-link {
   font-weight: 400;
