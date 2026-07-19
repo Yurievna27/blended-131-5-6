@@ -1,0 +1,123 @@
+.sign-up-section {
+  padding-top: 150px;
+}
+.sign-up-section > .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 60px;
+}
+.sign-form-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.sign-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.125;
+  letter-spacing: -0.04em;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.sign-title-span {
+  color: #bea69e;
+}
+.sign-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.sign-form {
+  display: flex;
+  flex-direction: column;
+}
+.sign-form-input {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  width: 480px;
+  height: 60px;
+  background-color: inherit;
+  margin-bottom: 14px;
+  padding: 20px 18px;
+}
+.sign-form-input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+
+  line-height: 1.25;
+  color: #fff;
+  opacity: 0.7;
+}
+.sign-form-textarea {
+  resize: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  width: 480px;
+  height: 120px;
+  background-color: inherit;
+  padding: 20px 18px;
+  margin-bottom: 40px;
+}
+.sign-form-textarea::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+
+  line-height: 1.25;
+  color: #fff;
+  opacity: 0.7;
+}
+.sign-form-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  border-radius: 12px;
+  padding: 16px 216px;
+  text-transform: uppercase;
+  background-color: #fff;
+
+  font-weight: 700;
+  font-size: 18px;
+
+  line-height: 1.55556;
+  text-transform: uppercase;
+  color: #121212;
+
+  margin-bottom: 20px;
+}
+.sign-form-privacy {
+  font-weight: 400;
+  font-size: 14px;
+
+  line-height: 1.28571;
+  color: rgba(255, 255, 255, 0.5);
+}
+.sign-privacy-link {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+.sign-img-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+}
+.sign-beige-camera {
+  position: absolute;
+  bottom: 62px;
+  left: 19px;
+  display: block;
+  filter: drop-shadow(-36px 18px 25px rgba(0, 0, 0, 0.26));
+}
+.sign-grey-camera {
+  position: absolute;
+  bottom: 88px;
+  right: 50px;
+}
