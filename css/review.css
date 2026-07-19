@@ -1,0 +1,67 @@
+.reviews-section {
+  padding-top: 150px;
+}
+.reviews-title {
+  font-weight: 500;
+  font-size: 48px;
+
+  line-height: 1.125;
+  letter-spacing: -0.04em;
+  color: #fff;
+
+  margin-bottom: 50px;
+}
+.reviews-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.reviews-list-item {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  width: 530px;
+  height: 216px;
+  padding: 20px;
+}
+.user-review-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.username-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+.username-opinion-wrap {
+  display: flex;
+  flex-direction: column;
+}
+.reviews-list-title {
+  font-weight: 500;
+  font-size: 20px;
+
+  line-height: 1.4;
+  color: #fff;
+}
+.reviews-list-text {
+  font-weight: 400;
+  font-size: 14px;
+
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.5);
+}
+.review-stars {
+  justify-content: flex-end;
+}
+.reviews-list-opinion {
+  font-weight: 400;
+  font-size: 16px;
+
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #fff;
+  padding: 20px 0px;
+}
