@@ -1,5 +1,5 @@
 .courses-section {
-  padding-top: 150px;
+  margin-top: 150px;
 }
 .courses-top-box {
   display: flex;
@@ -35,12 +35,13 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
   padding: 32px;
+  background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
 }
 .list-num-box {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
-  gap: 237px;
+  justify-content: space-between;
 }
 .list-num {
   font-weight: 400;
@@ -48,6 +49,30 @@
   line-height: 1.28571;
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.4);
+}
+.courses-arrow-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255 255 255 / 0.4);
+  background-color: #1d1d1d;
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+  position: relative;
+
+  transition-property: color, background-color;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
+}
+.courses-arrow {
+  position: absolute;
+  stroke: currentColor;
+}
+.courses-arrow-link:hover,
+.courses-arrow-link:focus {
+  background-color: #bea69e;
+  color: #ffffff;
 }
 .courses-list-title {
   font-weight: 500;
