@@ -31,7 +31,7 @@
   margin-top: 50px;
 }
 .courses-list-item {
-  width: 347px;
+  width: calc((100% - 20px * 2) / 3);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
   padding: 32px;
@@ -82,6 +82,7 @@
   margin-top: 32px;
   width: 265px;
 }
+/* Width is weird */
 .courses-list-text {
   font-weight: 400;
   font-size: 16px;
@@ -89,4 +90,5 @@
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 180px;
+  width: 284px;
 }

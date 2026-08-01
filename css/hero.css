@@ -28,6 +28,7 @@
   color: #bea69e;
 }
 .hero-text {
+  margin-top: 20px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.28571;
@@ -73,9 +74,17 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+
+  transition-property: color;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
 }
 .hero-link-span {
   width: 82px;
+}
+.hero-list:hover + .hero-link-students,
+.hero-list:focus + .hero-link-students {
+  color: #bea69e;
 }
 .hero-link-students:hover,
 .hero-link-students:focus {
@@ -95,6 +104,10 @@
   width: 50px;
   height: 50px;
   color: #121212;
+
+  transition-property: color, background-color;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
 }
 .hero-reviews {
   font-weight: 400;
@@ -103,6 +116,10 @@
   letter-spacing: -0.04em;
   color: rgba(255, 255, 255, 0.5);
   margin: 0;
+
+  transition-property: color;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
 }
 .hero-reviews-num {
   font-weight: 500;
@@ -111,8 +128,23 @@
   letter-spacing: -0.04em;
   color: #ffffff;
   margin: 0;
+
+  transition-property: color;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
 }
-.hero-reviews-num:hover {
+.hero-review-wrap:hover .hero-star-link,
+.hero-review-wrap:focus .hero-star-link {
+  background-color: #121212;
+  color: #bea69e;
+  box-shadow: 0px 0px 10px rgba(190, 166, 158, 0.1);
+}
+.hero-review-wrap:hover .hero-reviews,
+.hero-review-wrap:focus .hero-reviews {
+  color: rgba(190, 166, 158, 0.5);
+}
+.hero-review-wrap:hover .hero-reviews-num,
+.hero-review-wrap:focus .hero-reviews-num {
   color: #bea69e;
 }
 .hero-image {

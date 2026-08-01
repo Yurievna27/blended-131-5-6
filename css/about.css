@@ -36,5 +36,11 @@
   line-height: 1.25;
   letter-spacing: -0.02em;
   color: #ffffff;
-  width: 264px;
+  width: 100%;
+}
+.about-list-text.first {
+  max-width: 268px;
+}
+.about-list-text.second {
+  max-width: 264px;
 }
