@@ -11,13 +11,13 @@ header > .container {
 .header-nav-box {
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
-  width: 822px;
-  height: 60px;
-  display: flex;
-  gap: 97px;
-  padding: 20px 0;
-  justify-content: center;
   background-color: #121212;
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+  justify-content: space-between;
+  width: 335px;
+  height: 50px;
 }
 .header-nav-list {
   display: flex;
@@ -31,7 +31,6 @@ header > .container {
   font-size: 14px;
   text-transform: uppercase;
   color: #ffffff;
-  
   transition-property: color;
   transition-duration: 400ms;
   transition-timing-function: ease-in-out;
@@ -47,7 +46,6 @@ header > .container {
   flex-direction: row;
   gap: 0px;
   border-radius: 12px;
-  padding: 16px 84px;
   height: 60px;
   background-color: #ffffff;
   font-weight: 700;
@@ -68,4 +66,79 @@ header > .container {
   color: #bea69e;
   background-color: #121212;
   box-shadow: 0px 0px 10px rgb(255 255 255 / 0.3);
+}
+.header-menu-wrap {
+  display: flex;
+  gap: 14px;
+}
+.photo-btn {
+  color: rgba(190, 166, 158, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  border-radius: 100%;
+  background-color: #1d1d1d;
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.photo-btn-icon {
+  position: absolute;
+}
+.menu-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+}
+/* .menu-btn-icon {
+
+} */
+
+@media only screen and (max-width: 767.98px) {
+  .header-btn {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1157.98px) {
+  .header-nav {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .photo-btn {
+    display: none;
+  }
+  header > .container {
+    gap: 14px;
+  }
+  .header-nav-box {
+    height: 60px;
+    width: 504px;
+  }
+  .header-btn {
+    padding: 16px 58px;
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .menu-btn {
+    display: none;
+  }
+  header > .container {
+    gap: 20px;
+  }
+  .header-nav-box {
+    width: 822px;
+    padding: 0 50px;
+  }
+  .header-btn {
+    padding: 16px 84px;
+  }
 }
