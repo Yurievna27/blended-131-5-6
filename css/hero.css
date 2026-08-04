@@ -1,26 +1,26 @@
 .hero-section {
   background-image: url(../images/graphic.png);
   background-repeat: repeat;
-  padding: 155px 0 150px;
+  padding: 95px 0 80px;
   position: relative;
 }
 .hero-container {
   background-color: #1d1d1d;
   border-radius: 30px;
   display: flex;
-  padding: 50px;
+  padding: 40px 20px;
   padding-bottom: 0;
-}
-.hero-wrap {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 .hero-title {
   font-weight: 500;
-  font-size: 64px;
-  line-height: 1.0625;
+  font-size: 40px;
+  line-height: 1.1;
   letter-spacing: -0.04em;
   color: #ffffff;
-  width: 563px;
+  width: 295px;
+  margin-bottom: 20px;
 }
 .hero-title-span {
   font-style: italic;
@@ -28,17 +28,21 @@
   color: #bea69e;
 }
 .hero-text {
-  margin-top: 20px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.28571;
   letter-spacing: -0.02em;
   color: #ffffff;
-  margin-bottom: 137px;
-  width: 418px;
+  width: 295px;
+  margin-bottom: 40px;
 }
 .hero-students-box {
+  margin: 0 5px;
   display: flex;
+}
+.hero-students-wrap {
+  display: flex;
+  flex-direction: column;
 }
 .hero-reviews-box {
   display: flex;
@@ -51,7 +55,6 @@
 }
 .hero-list {
   display: flex;
-  margin-right: 12px;
 }
 .hero-list-item:not(:last-child) {
   margin-right: -13px;
@@ -62,25 +65,27 @@
 }
 .hero-list-image {
   display: block;
-  max-width: 100%;
+  max-width: 44px;
+  width: 100%;
   height: auto;
 }
 .hero-link-students {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
+  font-size: 14px;
+  line-height: 1.28;
   letter-spacing: -0.04em;
   color: #ffffff;
   display: flex;
-  flex-direction: column;
-  gap: 8px;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
 
   transition-property: color;
   transition-duration: 400ms;
   transition-timing-function: ease-in-out;
 }
 .hero-link-span {
-  width: 82px;
+  width: 67px;
 }
 .hero-list:hover + .hero-link-students,
 .hero-list:focus + .hero-link-students {
@@ -101,8 +106,8 @@
   align-items: center;
   background-color: #bea69e;
   border-radius: 100px;
-  width: 50px;
-  height: 50px;
+  width: 44px;
+  height: 44px;
   color: #121212;
 
   transition-property: color, background-color;
@@ -148,7 +153,8 @@
   color: #bea69e;
 }
 .hero-image {
-  margin: 0;
+  margin: 0 23px;
+  margin-top: 31px;
 }
 .cta-section {
   padding: 24px 0px;
@@ -169,4 +175,79 @@
 }
 .cta-title-span {
   color: #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-section {
+    padding: 115px 0 100px;
+  }
+  .hero-container {
+    padding: 64px 32px;
+    padding-bottom: 0;
+  }
+  .hero-title {
+    font-size: 60px;
+    line-height: 1.06667;
+    width: 517px;
+  }
+  .hero-text {
+    width: 418px;
+  }
+  .hero-students-box {
+    margin: 0;
+  }
+  .hero-students-wrap {
+    flex-direction: row;
+    gap: 12px;
+  }
+  .hero-list-image {
+    display: block;
+    max-width: 54px;
+    height: auto;
+  }
+  .hero-link-students {
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    font-size: 16px;
+  }
+  .hero-link-span {
+    width: 82px;
+  }
+  .hero-star-link {
+    width: 50px;
+    height: 50px;
+  }
+  .hero-image {
+    margin: 0 124px;
+    margin-top: 46px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .hero-section {
+    padding: 155px 0 150px;
+  }
+  .hero-container {
+    padding: 80px 50px;
+    padding-bottom: 0;
+    flex-direction: row;
+  }
+  .hero-wrap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-title {
+    font-size: 64px;
+    line-height: 1.0625;
+    width: 563px;
+  }
+  .hero-text {
+    width: 418px;
+    margin-bottom: 137px;
+  }
+  .hero-image {
+    margin: 0;
+  }
 }
