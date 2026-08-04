@@ -30,6 +30,20 @@
               class="header-logo"
             />
           </a>
+
+          <div class="header-menu-wrap">
+              <button type="button" class="photo-btn">
+                <svg class="photo-btn-icon" width="16" height="16">
+                  <use href="./images/icon-sprite.svg#camera" />
+                </svg>
+              </button>
+              <button type="button" class="menu-btn">
+                <svg class="menu-btn-icon" width="32" height="22">
+                  <use href="./images/icon-sprite.svg#nav" />
+                </svg>
+              </button>
+          </div>
+
           <nav class="header-nav">
             <ul class="header-nav-list">
               <li class="header-nav-item">
@@ -55,7 +69,7 @@
     </header>
 
     <main>
-      <section id="hero-section" class="hero-section">
+      <section id="hero-section" class="hero-section hide">
         <div class="container">
           <div class="hero-container">
             <div class="hero-wrap">
@@ -69,42 +83,43 @@
                 skills, translate your unique ideas.
               </p>
               <div class="hero-students-box">
-                <ul class="hero-list">
-                  <li class="hero-list-item">
-                    <img
-                      src="./images/girl1.png"
-                      alt="student girl"
-                      width="54"
-                      height="54"
-                      class="hero-list-image"
-                    />
-                  </li>
-                  <li class="hero-list-item">
-                    <img
-                      src="./images/boy.png"
-                      alt="student boy"
-                      width="54"
-                      height="54"
-                      class="hero-list-image"
-                    />
-                  </li>
-                  <li class="hero-list-item">
-                    <img
-                      src="./images/girl.png"
-                      alt="student girl 2"
-                      width="54"
-                      height="54"
-                      class="hero-list-image"
-                    />
-                  </li>
-                </ul>
-
-                <a href="#" class="hero-link-students">
-                  <span class="hero-link-span">Our happy students</span>
-                  <svg width="18" height="9" class="hero-arrow-img">
-                    <use href="./images/icon-sprite.svg#arrow-right" />
-                  </svg>
-                </a>
+                <div class="hero-students-wrap">
+                  <ul class="hero-list">
+                    <li class="hero-list-item">
+                      <img
+                        src="./images/girl1.png"
+                        alt="student girl"
+                        width="54"
+                        height="54"
+                        class="hero-list-image"
+                      />
+                    </li>
+                    <li class="hero-list-item">
+                      <img
+                        src="./images/boy.png"
+                        alt="student boy"
+                        width="54"
+                        height="54"
+                        class="hero-list-image"
+                      />
+                    </li>
+                    <li class="hero-list-item">
+                      <img
+                        src="./images/girl.png"
+                        alt="student girl 2"
+                        width="54"
+                        height="54"
+                        class="hero-list-image"
+                      />
+                    </li>
+                  </ul>
+                  <a href="#" class="hero-link-students">
+                    <span class="hero-link-span">Our happy students</span>
+                    <svg width="18" height="9" class="hero-arrow-img">
+                      <use href="./images/icon-sprite.svg#arrow-right" />
+                    </svg>
+                  </a>
+                </div>
 
                 <div class="hero-review-wrap">
                   <a href="#" class="hero-star-link">
@@ -128,7 +143,7 @@
         </div>
       </section>
 
-      <section class="cta-section">
+      <section class="cta-section hide">
         <!-- <div class="container"> -->
         <h2 class="cta-title">
           Master <span class="cta-title-span">your photography</span> skills
@@ -137,7 +152,7 @@
         <!-- </div> -->
       </section>
 
-      <section id="about-us" class="about-section">
+      <section id="about-us" class="about-section hide">
         <div class="container">
           <h2 class="about-title">
             About <span class="about-title-span">Us</span>
@@ -177,7 +192,7 @@
         </div>
       </section>
 
-      <section id="our-courses" class="courses-section">
+      <section id="our-courses" class="courses-section hide">
         <div class="container">
           <div class="courses-top-box">
             <h2 class="courses-title">
@@ -242,7 +257,7 @@
         </div>
       </section>
 
-      <section id="our-mentors" class="mentors-section">
+      <section id="our-mentors" class="mentors-section hide">
         <div class="container">
           <h2 class="mentors-title">
             Our <span class="mentors-title-span">Mentors</span>
@@ -304,7 +319,7 @@
         </div>
       </section>
 
-      <section id="sign-up" class="sign-up-section">
+      <section id="sign-up" class="sign-up-section hide">
         <div class="container">
           <div class="sign-form-wrap">
             <h2 class="sign-title">
@@ -377,7 +392,7 @@
         </div>
       </section>
 
-      <section id="reviews" class="reviews-section">
+      <section id="reviews" class="reviews-section hide">
         <div class="container">
           <h2 class="reviews-title">Reviews</h2>
           <ul class="reviews-list">
@@ -440,7 +455,7 @@
       </section>
     </main>
 
-    <footer id="footer" class="footer">
+    <footer id="footer" class="footer hide">
       <div class="container">
         <div class="footer-main-wrap">
           <div class="footer-contact footer-col">
