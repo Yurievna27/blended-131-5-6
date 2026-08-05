@@ -164,6 +164,7 @@
   justify-content: center;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  overflow: clip;
 }
 .cta-title {
   font-weight: 400;
